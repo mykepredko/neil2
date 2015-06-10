@@ -6,10 +6,10 @@
             syscall(setmotor, "100:-100");
         } 
         else if (stoi(syscall(irrightfront, "")) < 70) {
-            syscall(setmotor, "-100:100");
+            syscall(motorset, "-100:100");
         } 
         else {
-            syscall(setmotor, "100:100");
+            syscall(motorset, "100:100");
         } 
         syscall(delay, "100:100");
     }
