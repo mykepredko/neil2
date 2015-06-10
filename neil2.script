@@ -1,7 +1,7 @@
 //  neil2 - Object Avoidance in C
 
 
-    while ("udlre"" == syscall(getbutton, """)) {
+    while ("udlre"" == syscall(getbutton, ")) {
         if (stoi(syscall(irleftfront, "")) < 70) {
             syscall(setmotor, "100:-100");
         } 
